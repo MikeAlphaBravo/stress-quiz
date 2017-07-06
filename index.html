@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress or No Stress</h2>
+      </div>
+      <form id="stress_survey">
+        <div class="form-group">
+          <p>In the past month, check any of the following indicators:</p>
+          <input type="checkbox" name="warning_signs" value="1"> Loss of Sleep.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Headaches.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Muscle Tension.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Neck or Back Pain.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Upset Stomach.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Dry Mouth.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Chest Pains.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Feeling Overwhelmed.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Fatigue.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Loss of Appetite.<br>
+          <input type="checkbox" name="warning_signs" value="1"> Reduced Immune System.<br>
+        </div>
+        <div class="form-group">
+          <p>In the past month, check any of the following indicators:</p>
+          <input type="checkbox" name="symptoms" value="1"> Low Energy.<br>
+          <input type="checkbox" name="symptoms" value="1"> Headaches.<br>
+          <input type="checkbox" name="symptoms" value="1"> Upset Stomach.<br>
+          <input type="checkbox" name="symptoms" value="1"> Aches and pains.<br>
+          <input type="checkbox" name="symptoms" value="1"> Rapid Heartbeat.<br>
+          <input type="checkbox" name="symptoms" value="1"> Loss of Libido.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="warning_signs-responses">
+        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+      </span>
+      <br>
+      <span id="symptoms-responses">
+        <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
