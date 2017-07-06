@@ -11,6 +11,12 @@ $(document).ready(function(){
       var symptomsMode = $(this).val();
       $('#symptoms-responses').append(symptomsMode + "<br>");
     });
+    $("#stressManagement-responses").show();
+    $("input:checkbox[name=stressManagement]:checked").each(function(){
+      var stressManagementMode = $(this).val();
+      $('#stressManagement-responses').append(stressManagementMode + "<br>");
+    });
+
     $('#stress_survey').hide();
   });
 });
